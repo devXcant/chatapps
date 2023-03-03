@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+// import './Apps.css';
+
+
+// if using ChatEngine.io
+// import { ChatEngine } from 'react-chat-engine';
+// function App(){
+//   return(
+//     <ChatEngine 
+//           height ='100vh'
+//           projectID = '7a1d1dec-46f6-4b42-b947-faf0ed680ad8'
+//           userName = 'devX'
+//           userSecret = '22k.?!Ayor'
+//     />
+//   )
+// }
+
+
+import Register from './Pages/Register'
+import Login from './Pages/Login'
+import Home from './Pages/Home'
+import './style.scss'
+import Sidebar from './Components/Sidebar'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <Register />
+    // <Login />
+    <Home />
+    // <Sidebar />
+  )
 }
+
+
 
 export default App;
