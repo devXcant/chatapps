@@ -26,6 +26,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
+//   justify-content: center;
+  justify-content: space-between;
   justify-content: center;
 
   .form-wrapper{
@@ -143,6 +145,9 @@
         padding: 10px;
         display: flex;
         align-items: center;
+//         gap: 10px;
+        gap: 15px;
+        gap: 25px;
         gap: 10px;
         color: white;
         cursor: pointer;
@@ -238,7 +243,9 @@
       .messages{
         background-color: #ddddf7;
         padding: 10px;
-        height: calc(100% - 160px);
+//         height: calc(100% - 160px);
+        height: calc(100-180px);
+        height: calc(100%-160px);
         overflow: scroll;
 
         .message{
@@ -299,6 +306,8 @@
         padding: 10px;
         display: flex;
         align-items: center;
+//         justify-content: space-between;
+        justify-content:  center;
         justify-content: space-between;
 
         input{
